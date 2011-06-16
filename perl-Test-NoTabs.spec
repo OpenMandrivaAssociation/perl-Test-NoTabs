@@ -1,9 +1,9 @@
 %define upstream_name    Test-NoTabs
-%define upstream_version 1.0
+%define upstream_version 1.1
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Check the presence of tabs in your project
 License:    GPL+ or Artistic
