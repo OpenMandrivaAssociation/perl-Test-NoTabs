@@ -1,15 +1,15 @@
 %define upstream_name    Test-NoTabs
-%define upstream_version 1.1
+%define upstream_version 1.3
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 1.3
+Release:	1
 
 Summary:	Check the presence of tabs in your project
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Test/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/Test-NoTabs-1.3.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
@@ -55,4 +55,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Tue Aug 24 2010 Jérôme Quelin <jquelin@mandriva.org> 1.0.0-1mdv2011.0
 + Revision: 572833
 - import perl-Test-NoTabs
+
 
