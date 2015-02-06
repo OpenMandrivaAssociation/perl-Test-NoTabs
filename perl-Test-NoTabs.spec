@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 1.3
-Release:	2
+Release:	3
 
 Summary:	Check the presence of tabs in your project
 License:	GPL+ or Artistic
